@@ -1,0 +1,77 @@
+/* 
+colors from darkest to lightest
+#111827
+#065F46
+#10B981
+#6EE7B7
+#D1FAE5
+#ECFDF5
+ */
+body {
+    margin: 0;
+    background: #111827;
+    width: 390px;
+    text-align: center;
+}
+
+h1 {
+    color: #10B981;
+    line-height: 35px;
+    font-weight: bold;
+    margin: 0px 0px 0px 10px;
+}
+
+#title-top {
+    color: #ECFDF5;
+}
+
+#catch-copy {
+    font-weight: bold;
+    color: aliceblue;
+    margin: 10px 0px 30px 10px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    background: #065F46;
+    border: 2px solid #111827;
+    box-shadow: 1px 1px 1px #ECFDF5;
+    border-radius: 6px;
+    padding: 9px 18px;
+    color: #ECFDF5;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #10B981;
+    text-shadow: 0px 0px 10px black;
+}
+
+hr {
+    margin: 15px 10px;
+    border: 1px solid #065F46
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+h4 {
+    color: #ECFDF5;
+    text-align: center;
+}
+
+.password {
+    color: #ECFDF5;
+    background: #065F46;
+    width: 150px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    height:18px;
+    box-shadow: 0px 0px 5px #ECFDF5
+}
